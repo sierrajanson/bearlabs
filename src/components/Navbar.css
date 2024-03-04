@@ -10,6 +10,8 @@
 li {
     margin-left: 3vh;
     float: left;
+    text-shadow: none;
+    box-shadow: none;
 }
 
 .link{
@@ -33,3 +35,18 @@ li {
     margin-left: 5vh;
 }
 
+.nav_language_button{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+    background: none;
+    background-color: none;
+    border-radius: 0;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    
+}

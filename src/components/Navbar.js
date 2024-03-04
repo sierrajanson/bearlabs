@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 
 const Navbar= () =>{
 
+  const handleLanguageClick = () => {
+
+
+  }
   return (
   <div className="link_container">
     <li className="logo">
@@ -17,7 +21,10 @@ const Navbar= () =>{
       <Link to="/"className="link">Contact</Link>
     </li>
     <li>
-    <Link to="/home"className="link">Language</Link>
+        <select className="nav_language_button" name="Language" onclick={handleLanguageClick}> 
+            <option value="english"><Link to="/">English</Link></option>
+            <option value="kannada"><Link to="/home_kn">ಕನ್ನಡಿ</Link></option>
+        </select>
     </li>
     </div>
 
