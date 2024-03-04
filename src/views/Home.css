@@ -1,0 +1,133 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.holder_image{
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    box-shadow: rgba(0,0,0,0.3) -1px 3px 10px;
+}
+.body h2{
+    padding-top: 5vh;
+    margin-left: -50%;
+    font-size: 8vh;
+    font-weight: 800;
+}
+.Home{
+    height: 70vh;
+}
+
+.Home h1{
+    font-size: 15vh;
+    font-weight: 900;
+    text-shadow: rgba(0,0,255,0.75) -2px 2px 5px;
+    line-height: 15vh;
+    letter-spacing: 0.001vh;
+    margin-left: -76vh;
+    margin-top: 20vh;
+}
+
+.Home p {
+    font-size: 4vh;
+    margin-top: -20vh;
+    text-align: left;
+    margin-left: 85vh;
+
+}
+.home_circle{
+    height: 35vh;
+    width: 35vh;
+    display: absolute;
+    top: -50px;
+    margin-left: 20vh;
+    margin-top: -44vh;
+    background-color: pink;
+    border-radius: 50% 50%;
+}
+
+.home_yellow_circle{
+    background-color: #FFFF33;
+    height: 45vh;
+    width: 45vh;
+    margin-left: 35vh;
+    margin-top: -17vh;
+}
+
+.Why{
+    background-color: pink;
+    height: 100vh;
+}
+.Why p{
+    font-size: 4vh;
+    font-weight: 500;
+    margin-top: 8vh;
+}
+
+.why_graphic_explanation{
+    width: 75%;
+    margin: auto;
+    margin-top: 10vh;
+
+    display:flex;
+    flex: auto auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.why_text{
+    width: 40%;
+    padding-right:10vh;
+}
+.why_img{
+    width: 40%;
+    padding-left:10vh;
+}
+.About{
+    background-color: #FFA555;
+    height: 100vh;
+}
+
+.About .holder_image{
+    margin: auto;
+    width: 800px;
+    margin-top: 10vh;
+}
+
+.Locations{
+    background-color: #FFFF33;
+    height: 100vh;
+}
+
+.locations_flex_container{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-top: 7vh;
+    flex: 35% 65%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.locations_flex_container .holder_image{
+    width: 800px;
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+.locations_flex_text{
+    text-align: left;
+    font-size: 4vh;
+    font-weight: 500;
+}
+.locations_hours{
+    margin-top: 10vh;
+}
+
+.Footer{
+    background-color: white;
+    height: 15vh;
+    font-size: 3vh;
+}
