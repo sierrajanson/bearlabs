@@ -1,4 +1,5 @@
 import "./Home.css";
+import Pen from "../components/Pen";
 export default function Home_en() {
   // navigation system
   // header
@@ -33,7 +34,9 @@ export default function Home_en() {
         </div>
         <div className="About">
             <h2> How does it work? </h2>
-            <div className="holder_image"></div>
+            <div className="about_pen">
+                <Pen/>       
+            </div>
 
         </div>
         <div className="Locations">
