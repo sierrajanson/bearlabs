@@ -1,5 +1,7 @@
 import "./Home.css";
+import Graph from "../components/insulin.png";
 import Pen from "../components/Pen";
+import MapComponent from "../components/MapComponent";
 export default function Home_en() {
   // navigation system
   // header
@@ -24,7 +26,9 @@ export default function Home_en() {
             <h2> Why Paveway? </h2>
             <div className="why_graphic_explanation">
                 <div className="why_img">
-                    <div className="holder_image"></div>
+                    <div className="holder_image why_graph_holder">
+                        <img className="why_graph" src={Graph}></img>
+                    </div>
                 </div>
                 <div className="why_text">
                     <p> According to the National Library of Medicine, the “lowest paid unskilled worker pays 1.4 to <b>9.3 days’ wages</b> for a month supply” of insulin due to favoring of imported insulin. </p>
@@ -53,7 +57,9 @@ export default function Home_en() {
                         <p>F TBD-TBD</p>
                     </div>
                 </div>
-                <div className="holder_image"></div>
+                <div className="holder_image">
+                    <MapComponent/>
+                </div>
             </div>
 
         </div>
