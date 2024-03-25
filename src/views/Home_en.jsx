@@ -1,12 +1,13 @@
 import "./Home.css";
 import Graph from "../components/insulin.png";
+import Pen_Expanded from "../components/Pen_Expanded";
 import Pen from "../components/Pen";
 import MapComponent from "../components/MapComponent";
 export default function Home_en() {
   // navigation system
   // header
   // tagline 
-
+    // https://mxd.codes/articles/how-to-create-a-web-map-with-open-layers-and-react
   // circles for design
   // pen componenet
   return (
@@ -19,7 +20,7 @@ export default function Home_en() {
                 <i>affordable quality insulin pens</i><br />
                 <i>bengaluru, india</i>
             </p>
-
+            <Pen/>
 
         </div>
         <div className="Why">
@@ -39,7 +40,7 @@ export default function Home_en() {
         <div className="About">
             <h2> How does it work? </h2>
             <div className="about_pen">
-                <Pen/>       
+                <Pen_Expanded/>       
             </div>
 
         </div>

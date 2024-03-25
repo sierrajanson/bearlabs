@@ -5,12 +5,12 @@ import {GLTFLoader} from 'three/addons/loaders/GLTFLoader';
 export default function Pen() {
 
     const Pen = () => {
-        const gltf = useLoader(GLTFLoader, './models/design_paveway.glb');
+        const gltf = useLoader(GLTFLoader, './models/design_paveway_collapsed.glb');
         const ref = useRef();
         useFrame((state,delta) =>{
-         ref.current.rotation.z = 850;
-         ref.current.rotation.x = 9.75;
-         ref.current.rotation.y = 10;
+         ref.current.rotation.z = 1100;
+         ref.current.rotation.x = 9.5;
+         ref.current.rotation.y = 12;
 
         }
         );
@@ -26,12 +26,11 @@ export default function Pen() {
     }
 
     return (
-    <div className="container">
-        <Canvas camera={{ position: [3, 0.5, -3], near: 0.025 }}>
+        <Canvas className="home_pen_container" camera={{ position: [3, 0.5, -3], near: 0.025 }}>
         {/* <directionalLight
-          position={[0,1,-2]}
-          castShadow
-          intensity={Math.PI * 2}
+        position={[0,1,-2]}
+        castShadow
+        intensity={Math.PI * 2}
         /> */}
         <ambientLight
             intensity={Math.PI * 1}
@@ -39,7 +38,6 @@ export default function Pen() {
         <Pen/>
         <OrbitControls/>
         </Canvas>
-    </div>
 )
 }
 

@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 .holder_image{
     background-color: white;
@@ -12,16 +13,17 @@
 .body h2{
     padding-top: 5vh;
     margin-left: -50%;
-    font-size: 8vh;
+    font-size: 7vh;
     font-weight: 800;
 }
 .Home{
-    height: 70vh;
+    height: 80vh;
 }
 
 .Home h1{
     font-size: 15vh;
     font-weight: 900;
+    overflow-y:hidden;
     text-shadow: rgba(0,0,255,0.75) -2px 2px 5px;
     line-height: 15vh;
     letter-spacing: 0.001vh;
@@ -55,20 +57,27 @@
     margin-top: -17vh;
 }
 
+.home_pen_container{
+    margin-left: 38vh;
+    height: 350px;
+    margin-top: -75vh;
+    overflow-y:hidden;
+
+}
 .Why{
     background-color: pink;
-    height: 100vh;
+    height: 102vh;
 }
 .Why p{
-    font-size: 4vh;
+    font-size: 3.5vh;
     font-weight: 500;
-    margin-top: 8vh;
+    margin-top: 7vh;
 }
 
 .why_graphic_explanation{
     width: 75%;
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 9vh;
 
     display:flex;
     flex: auto auto;
@@ -80,11 +89,18 @@
 
 .why_text{
     width: 40%;
-    padding-right:10vh;
+    padding-right:7vh;
 }
 .why_img{
     width: 40%;
-    padding-left:10vh;
+    padding-left:7vh;
+}
+.why_graph{
+    width: 100%;
+}
+.why_graph_holder{
+    width: 550px;
+    height: 450px;
 }
 .About{
     background-color: #FFA555;
@@ -128,15 +144,16 @@
 
 .Footer{
     background-color: white;
-    height: 15vh;
+    height: 10vh;
     font-size: 3vh;
     margin-top: 3vh;
 }
 
 .about_pen{
-    height: 200px;
+    height: 500px;
+    overflow-y: hidden;
     display: absolute;
-    margin-top: 3vh;
+    margin-top: 4vh;
 
 }
 
@@ -152,10 +169,3 @@
 
 }
 
-.why_graph{
-    width: 100%;
-}
-.why_graph_holder{
-    width: 550px;
-    height: 450px;
-}
